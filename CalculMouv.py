@@ -145,8 +145,8 @@ class Control:
         if tangage != 0:
             self.POSITION_TANGAGE = self.POSITION_TANGAGE + tangage
 
-# Calcul de la case dans laquel le robot doit mettre le cube
-# Voir modèle de répresentation plateau dans le rapport
+# Calcul de la case dans laquelle le robot doit mettre le cube
+# Voir modèle de répresentation des points dans le rapport
     def Emplacement(self,ligne,colonne):
         self.emplacement = ligne*colonne
         if self.emplacement == 1 :
